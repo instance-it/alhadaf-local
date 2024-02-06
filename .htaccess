@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^$ index.php/ [L]
+RewriteRule ^account/deleteaccount$ account/account.php
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ home.php/$1

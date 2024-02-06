@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule ^$ index.php/ [L]
+RewriteRule ^report/memberreport?$ report/memberreport.php
+RewriteRule ^report/itemreport?$ report/itemreport.php
+RewriteRule ^report/orderreport?$ report/orderreport.php
+RewriteRule ^report/rangebookingreport?$ report/rangebookingreport.php
+RewriteRule ^report/storeorderreport?$ report/storeorderreport.php
+RewriteRule ^report/storeorderreturnitemreport?$ report/storeorderreturnitemreport.php
+RewriteRule ^report/serviceorderreport?$ report/serviceorderreport.php
+RewriteRule ^report/rangereleasereport?$ report/rangereleasereport.php
+RewriteRule ^report/itemsalesummaryreport?$ report/itemsalesummaryreport.php
+RewriteRule ^report/mshipsalesummaryreport?$ report/mshipsalesummaryreport.php
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ dashboard.php/$1

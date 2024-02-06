@@ -1,0 +1,61 @@
+.section-spacing {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    background-color: #f3f3f3;
+}
+
+.footer-content-title h2 {
+    font-size: 18px;
+}
+
+.footer-content-title p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+}
+
+.footer-content-title p a {
+    color: #ee5a24;
+}
+
+.footer-content-text h2 {
+    font-size: 18px;
+}
+
+.footer-c-list li a {
+    text-decoration: none;
+    color: #666;
+    line-height: 25px;
+}
+
+.footer-c-list li a {
+    color: #ee5a24;
+}
+
+.footer-content-desc h2 {
+    font-size: 18px;
+}
+
+.f-c-description h2 {
+    font-size: 18px;
+}
+
+.f-c-description p {
+    font-size: 16px;
+}
+
+.f-c-text h2 {
+    font-size: 18px;
+}
+
+.f-c-text p {
+    font-size: 16px;
+}
+
+.footer-content-dist {
+    display: flex;
+    flex-wrap: wrap;
+}
